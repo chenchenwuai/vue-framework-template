@@ -1,0 +1,16 @@
+// base color
+$primary: #3A71A8;
+$warning: #FEC171;
+$info: #324157;
+$error: #E65D6E;
+$success: #30B08F;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  globalColorPrimary: $primary;
+  globalColorWarning: $warning;
+  globalColorInfo: $info;
+  globalColorError: $error;
+  globalColorSuccess: $success;
+}
